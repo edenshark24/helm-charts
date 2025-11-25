@@ -3,12 +3,12 @@ entries:
   mychart:
   - apiVersion: v1
     appVersion: 1.16.0
-    created: "2025-11-22T17:47:45.000893667Z"
+    created: "2025-11-25T19:12:50.869268769Z"
     description: A Helm chart for Kubernetes
-    digest: 5489fafac8c79a1511df7d3bd8d68039daed491c11e3a837651c7017d2c7839e
+    digest: 24eacddea6369d5e4365deff271a199759ccba3acab39fc84f170189addc8b6b
     name: mychart
     type: application
     urls:
     - https://edenshark24.github.io/helm-charts/mychart-0.1.0.tgz
     version: 0.1.0
-generated: "2025-11-22T17:47:45.000382662Z"
+generated: "2025-11-25T19:12:50.868726804Z"
