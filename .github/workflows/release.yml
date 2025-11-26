@@ -6,6 +6,7 @@ on:
       - main
     paths:
       - 'mychart/**'
+      - 'backend-api/**'
 
 jobs:
   release:
@@ -23,7 +24,9 @@ jobs:
 
       - name: Package Helm chart
         run: |
-          helm package mychart/ -d docs/
+             for chart in mychart backend-api; do
+      helm package $chart/ -d docs/
+    done
 
       - name: Update Helm repository index
         run: |
