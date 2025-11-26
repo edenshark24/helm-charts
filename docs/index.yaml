@@ -1,9 +1,23 @@
 apiVersion: v1
 entries:
+  backend-api:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2025-11-26T21:31:34.0923963+02:00"
+    description: Python Flask REST API for backend services
+    digest: 369f543a387ea15508e8add002e59ecc6dc8562c33891fbfd4c5474c8a742c32
+    name: backend-api
+    type: application
+    urls:
+    - https://edenshark24.github.io/helm-charts/backend-api-0.1.0.tgz
+    version: 0.1.0
   mychart:
   - apiVersion: v1
     appVersion: 1.16.0
-    created: "2025-11-25T19:12:50.869268769Z"
+
+    
+    created: "2025-11-26T21:31:34.115464+02:00"
+>>>>>>> 42fc754 (build: Package backend-api v0.1.0)
     description: A Helm chart for Kubernetes
     digest: 24eacddea6369d5e4365deff271a199759ccba3acab39fc84f170189addc8b6b
     name: mychart
@@ -11,4 +25,6 @@ entries:
     urls:
     - https://edenshark24.github.io/helm-charts/mychart-0.1.0.tgz
     version: 0.1.0
-generated: "2025-11-25T19:12:50.868726804Z"
+
+generated: "2025-11-26T21:31:34.0856646+02:00"
+>>>>>>> 42fc754 (build: Package backend-api v0.1.0)
